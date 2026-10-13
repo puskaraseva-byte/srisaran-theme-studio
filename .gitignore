@@ -1,0 +1,8 @@
+﻿node_modules/
+.wrangler/
+.wrangler-check/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+backups/

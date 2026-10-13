@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS products (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ category TEXT NOT NULL CHECK(category IN ('web','app','tech')),
+ name TEXT NOT NULL,
+ type TEXT NOT NULL DEFAULT 'General',
+ description TEXT NOT NULL DEFAULT '',
+ price REAL NOT NULL DEFAULT 0,
+ icon TEXT NOT NULL DEFAULT '📦',
+ image TEXT NOT NULL DEFAULT '',
+ stack TEXT NOT NULL DEFAULT '',
+ features TEXT NOT NULL DEFAULT '[]',
+ components TEXT NOT NULL DEFAULT '[]',
+ published INTEGER NOT NULL DEFAULT 0,
+ created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

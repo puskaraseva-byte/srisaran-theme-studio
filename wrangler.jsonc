@@ -1,0 +1,16 @@
+﻿{
+  "name": "srisaran-theme-studio",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-11",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "srisaran-catalog",
+      "database_id": "a1eb48fd-13f4-489d-9261-f1bc827b407b"
+    }
+  ]
+}
